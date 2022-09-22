@@ -4,7 +4,10 @@
       <div
         class="flex flex-nowrap h-full bg-white px-8 mx-auto border-b border-solid border-brand-gray-1"
       >
-        <a href="/" class="flex items-center h-full text-xl">구글 커리어</a>
+        <a href="/" class="flex items-center h-full text-xl">{{ company }}</a>
+        <h2 class="flex items-center h-full text-xl ml-8">
+          Developed by {{ author }}
+        </h2>
       </div>
     </div>
   </header>
@@ -13,5 +16,14 @@
 <script>
 export default {
   name: "MainNav",
+  /**
+   *  ! data
+   */
+  data() {
+    return {
+      company: "구글 커리어",
+      author: "kim",
+    };
+  },
 };
 </script>
