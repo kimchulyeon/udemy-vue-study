@@ -1,6 +1,5 @@
 <template>
   <MainNav />
-  <div class="mt-8 text-6xl text-center">-</div>
 </template>
 
 <script>
