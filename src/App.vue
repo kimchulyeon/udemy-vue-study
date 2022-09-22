@@ -1,8 +1,16 @@
 <template>
-  <div>hello world</div>
+  <MainNav />
+  <div class="mt-8 text-6xl text-center">-</div>
 </template>
 
-<script setup></script>
+<script>
+import MainNav from "@/components/MainNav.vue";
+
+export default {
+  name: "App",
+  components: { MainNav },
+};
+</script>
 
 <style>
 body {
